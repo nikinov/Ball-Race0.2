@@ -14,6 +14,9 @@ TagManager:
   - BeachPinkSkin
   - BeachBlueSkin
   - BeachRedSkin
+  - Play
+  - Skins
+  - Settings
   layers:
   - Default
   - TransparentFX

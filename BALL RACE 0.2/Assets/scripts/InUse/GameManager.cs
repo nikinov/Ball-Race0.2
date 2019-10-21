@@ -70,4 +70,8 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(sceneBuildIndex: 1);
         Time.timeScale = 1f;
     }
+    public void GoToMainMenu ()
+    {
+        SceneManager.LoadScene(sceneBuildIndex: 2);
+    }
 }
