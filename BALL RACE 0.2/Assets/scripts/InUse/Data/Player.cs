@@ -67,7 +67,6 @@ public class Player : MonoBehaviour
     {
         GameData data = SaveGame.LoadData();
 
-        BeachSkin = data.Pink;
     }
     public void Pink ()
     {
