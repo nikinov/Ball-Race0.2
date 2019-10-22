@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
         //rb.velocity = transform.forward * Time.deltaTime * speed;
     }
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         PhysicsHelper.ApplyForceToReachVelocity(rb, Vector3.forward * forwardForce * Time.deltaTime, forwardSpeed * Time.deltaTime);
 
